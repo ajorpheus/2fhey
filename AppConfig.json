@@ -109,7 +109,7 @@
         "amex",
         "sia",
         "fanduel",
-        "cart"
+        "cart","lloyds"
     ],
     "servicePatterns":[
         "\\bfor\\s+your\\s+([\\w\\d ]{2,64})\\s+account\\b",
@@ -223,7 +223,8 @@
         "\\b([\\w\\d]{3,64})\\s+code\\b",
         "\\b([\\w\\d]{3,64})\\s+number\\b",
         "\\b([\\w\\d]{3,64})\\s+pin\\b",
-        "【([\\u4e00-\\u9fa5\\d\\w]+)"
+        "【([\\u4e00-\\u9fa5\\d\\w]+)",
+        "\\b([\\d]{6})\\s+is\\s+the\\s+passcode\\s+to\\s+verify\\s+your\\s+Lloyds\\s+Bank\\s+log\\s+on"
    ],
    "customPatterns":[
        {
